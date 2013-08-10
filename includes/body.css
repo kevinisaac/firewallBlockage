@@ -1,0 +1,52 @@
+article{
+    width: 75%;
+    margin: auto;
+    min-height: 620px;
+}
+#content-wrapper{
+    width: 80%;
+    margin: auto;
+}
+#content{
+    padding: 20px;
+}
+#left-div{
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+    border: 2px solid black;
+}
+#left-div-inner{
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+}
+label{
+    font-family: serif;
+}
+.asterisk{
+    font-weight: bold;
+    color: red;
+}
+input[type="text"]{
+    margin: 0px;
+    padding: 4px;
+    border: 1px solid;
+    width: 300px;
+}
+textarea{
+    width: 500px;
+    height: 100px;
+    resize: none;
+}
+input[type="button"]{
+    margin: 0;
+    padding: 3px;
+}
+input[type="button"], input[type="submit"]{
+    margin: 0;
+    border: 0;
+    padding: 8px;
+    outline: 0;
+    cursor: pointer;
+}
